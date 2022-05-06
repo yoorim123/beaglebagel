@@ -1,0 +1,278 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #202020;}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'GmarketSansBold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        font-family:GmarketSansLight;
+        font-size: 15px;
+        line-height: 21px;
+        color: #202020;
+        min-width: 1320px;
+    }
+
+    /*h2 폰트 고정부분*/
+h2{
+    font-family:'GmarketSansBold';
+    font-size: 26px;
+    line-height: 36px;
+}
+
+/*페이지1*/
+#header{
+    height: 200px;
+    background-color: #fff8f6;
+}
+.header_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    text-align: center;
+    padding: 40px 0 45px;
+}
+.login{
+    float: left;
+    padding-left: 200px;
+}
+.login li{
+    float: left;
+}
+.login li a{
+    display: block;
+    color: #704b31;
+    padding-right: 30px;
+    font-family:'GmarketSansMedium';
+    font-size: 10.5px;
+}
+.login li .orange{
+    display: block;
+    color: #ed7625;
+}
+.nav{
+    float: right;
+    padding-right: 200px;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    color:#704b31;
+    padding-left: 100px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+}
+
+/*메인배너*/
+.store_bg{
+    width: 1920px;
+    height: 250px;
+    margin: 0 auto;
+    background: url(../images/sub3_store/banner.jpg) no-repeat;
+}
+
+/*페이지2*/
+#here{
+    height: 780px;
+}
+.here_inner{
+    width: 1320px;
+    height: 780px;
+    margin: 0 auto;
+    padding: 100px 0 160px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.here_inner h2{
+    padding-bottom: 20px;
+}
+.button{
+    margin: auto;
+    width: 762px;
+    height: 35px;
+    padding: 100px 0 25px;
+    box-sizing: border-box;
+}
+.button li{
+    float: left;
+    width: 150px;
+    height: 35px;
+    background-color: #dbdbdb;
+    border-radius: 17.5px;
+    margin: 0 20px 25px 20px;
+}
+.button li a{
+    display: block;
+    text-align: center;
+    padding: 9px 0;
+    font-family: 'GmarketSansMedium';
+    font-size: 16px;
+}
+.button li:nth-child(1){
+    background-color: #009990;
+}
+.button li:nth-child(1) a{
+    display: block;
+    color: #ffffff;
+}
+.illust{
+    text-align: center;
+}
+
+/*메인배너2*/
+.store_bg_2{
+    width: 1920px;
+    height: 150px;
+    margin: 0 auto;
+    background: url(../images/sub3_store/banner_2.jpg) no-repeat;
+}
+
+/*페이지3*/
+.why_inner{
+    width: 1320px;
+    height: 1200px;
+    margin: 0 auto;
+    padding: 80px 0 120px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.why_inner h2{
+    padding-bottom: 15px;
+}
+.boxes{
+    margin: auto;
+    width: 930px;
+    height: 450px;
+    box-sizing: border-box;
+}
+.boxes li{
+    float: left;
+    width: 204px;
+    padding: 90px 14px 100px 14px;
+}
+.images{
+    margin-bottom: 7px;
+}
+.bold{
+    font-family: 'GmarketSansMedium';
+    font-size: 16px;
+}
+.why_box{
+    width: 920px;
+    height: 400px;
+    margin: 30px auto 120px;
+    box-shadow: 7px 7px 10px rgba(32,32,32,0.3);
+    border-radius: 20px;
+    box-sizing: border-box;
+    background: url(../images/sub3_store/character.png) no-repeat #ffffff
+    30px 60px;
+}
+
+/*폼태그*/  
+.form{
+    float: right;
+    width: 500px;
+    margin: 45px 45px 0 0;
+}
+input[type=text], input[type=tel], input[type=email], input[type=textarea] {
+    width: 500px;
+    height: 40px;
+    background-color: #eaeaea;
+    border: 0;
+    border-radius: 14px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+input::placeholder {
+    color: #202020;
+    font-family: 'GmarketSansLight';
+}
+/*radio*/
+div.radio_wrap{
+    display: inline-flex;
+    align-items: center;
+}
+input[type='radio'], input[type='radio']:checked {
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border: 2px solid #ed7625;
+    margin: 10px 10px 0 0;
+}
+
+
+/*푸터*/
+#footer{
+    background-color: #292b2c;
+}
+.footer_inner{
+    width: 1320px;
+    height: 210px;
+    margin: auto;
+    padding: 65px 0 50px 0;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    width: 700px;
+}
+.right{
+    float: right;
+    width: 400px;
+    padding-right: 70px;
+}
+.f_logo{
+    display: block;
+    float: left;
+    padding-left: 150px;
+}
+.footer_inner .f_text_left{
+    float: left;
+    color: #fff;
+    padding-left: 35px;
+    font-size: 13px;
+}
+.f_text_right li{
+    float: left;
+    margin-left: 15px;
+    padding-bottom: 45px;
+}
+.f_text_right li a{
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+}
+.right p{
+    font-family:'GmarketSansBold';
+    font-size: 13px;
+    color: #fff;
+    text-align: right;
+    clear: both;
+}
+

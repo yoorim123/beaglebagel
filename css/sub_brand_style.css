@@ -1,0 +1,323 @@
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #202020;}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    }
+    @font-face {
+        font-family: 'GmarketSansBold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'yg-jalnan';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    body{
+        font-family:GmarketSansLight;
+        font-size: 15px;
+        line-height: 21px;
+        color: #202020;
+        min-width: 1320px;
+    }
+
+/*h2 폰트 고정부분*/
+h2{
+    font-family:'GmarketSansBold';
+    font-size: 26px;
+    line-height: 36px;
+}
+
+/*페이지1*/
+#header{
+    height: 200px;
+    background-color: #fff8f6;
+}
+.header_inner{
+    width: 1320px;
+    margin: 0 auto;
+}
+.logo{
+    display: block;
+    text-align: center;
+    padding: 40px 0 45px;
+}
+.login{
+    float: left;
+    padding-left: 200px;
+}
+.login li{
+    float: left;
+}
+.login li a{
+    display: block;
+    color: #704b31;
+    padding-right: 30px;
+    font-family:'GmarketSansMedium';
+    font-size: 10.5px;
+}
+.login li .orange{
+    display: block;
+    color: #ed7625;
+}
+.nav{
+    float: right;
+    padding-right: 200px;
+}
+.nav li{
+    float: left;
+}
+.nav li a{
+    display: block;
+    color:#704b31;
+    padding-left: 100px;
+    font-family: 'GmarketSansMedium';
+    font-size: 15px;
+}
+
+/*메인배너*/
+.brand_bg{
+    width: 1320px;
+    height: 500px;
+    margin: 0 auto;
+    background: url(../images/sub1_brand/brand_banner.jpg) no-repeat;
+}
+
+/*페이지2*/
+.vision_inner{
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 60px 0 65px;
+    box-sizing: border-box;
+}
+.vision_inner h2{
+    padding-bottom: 20px;
+}
+.vision_text li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    padding: 100px 0 25px;
+    font-size: 20px;
+    font-family:'GmarketSansMedium';
+}
+.vision_img li{
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+
+/*페이지3*/
+#logo{
+    height: 1000px;
+    background-color: #f1f1f1;
+}
+.logo_inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.logo_inner h2{
+    padding-bottom: 20px;
+}
+.main_box{
+    margin: 55px auto 15px;
+    width: 700px;
+    height: 220px;
+    background-color: #ffffff;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px 50px 0 0;
+    padding: 38px 0;
+    box-sizing: border-box;
+}
+.main_box img{
+    text-align: center;
+}
+.main_text{
+    margin: 0 auto;
+    width: 700px;
+    height: 80px;
+    text-align: center;
+}
+.main_text p{
+    font-size: 14px;
+    line-height: 21px;
+}
+.logo_bold{
+    font-family:'GmarketSansMedium';
+}
+/*서브박스 레이아웃*/
+.boxes{
+    /*height: 80%;*/
+    font-size: 0;
+    width: 100%;
+    /*height: 300px;*/
+    margin: 50px auto;
+}
+.box{
+    display: inline-block;
+    width: 30%;
+    /*height: 100%;*/
+    font-size: 0;
+    margin-left: 3%;
+    text-align: center;
+    vertical-align: top;
+}
+.box div{
+    width: 100%;
+    height: 200px;   
+    /*height: 80%; / 다른 곳에 넣은 height를 다 삭제하고 여기에만 고정값px을 넣어주는 게 낫다*/
+    /*padding-top: 10%;*/
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 50px 50px 0 0;
+    margin-bottom: 15px;
+}
+.box p{
+    font-size: 14px;
+    /*height: 20%;*/
+}
+.boxes li:nth-child(1) .images{
+    padding-top: 36px;
+}
+.boxes li:nth-child(2) .images{
+    padding-top: 12.5px;
+}
+.boxes li:nth-child(3) .images{
+    padding-top: 35px;
+}
+
+/*페이지4*/
+#color{
+    height: 600px;
+}
+.color_inner{
+    width: 1320px;
+    margin: 0 auto;
+    padding: 100px 0 120px 0;
+    text-align: center;
+}
+.color_inner h2{
+    padding-bottom: 20px;
+}
+.color_inner p{
+    padding-bottom: 100px;
+}
+.main_color{
+    float: left;
+    padding-left: 120px;
+}
+.main_color li{
+    float: left;
+    width: 150px;
+    height: 200px;
+    background-color: #ee7625;
+}
+.main_color li p, .sub_color li p{
+    font-family:'GmarketSansMedium';
+    color: #ffffff;
+    text-align: left;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 135px 0 0 10px;
+}
+.sub_color{
+    float: right;
+    padding-right: 120px;
+}
+.sub_color li{
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-left: 45px;
+}
+.sub_color li:nth-child(1){
+    background-color: #fff5e0;
+}
+.sub_color li:nth-child(2){
+    background-color: #704b31;
+}
+.sub_color li:nth-child(3){
+    background-color: #e6e7e8;
+}
+.sub_color li:nth-child(4){
+    background-color: #009990;
+}
+.sub_color .black{
+    color: #202020;
+}
+
+/*푸터*/
+#footer{
+    background-color: #292b2c;
+}
+.footer_inner{
+    width: 1320px;
+    height: 210px;
+    margin: auto;
+    padding: 65px 0 50px 0;
+    box-sizing: border-box;
+}
+.left{
+    float: left;
+    width: 700px;
+}
+.right{
+    float: right;
+    width: 400px;
+    padding-right: 70px;
+}
+.f_logo{
+    display: block;
+    float: left;
+    padding-left: 150px;
+}
+.footer_inner .f_text_left{
+    float: left;
+    color: #fff;
+    padding-left: 35px;
+    font-size: 13px;
+}
+.f_text_right li{
+    float: left;
+    margin-left: 15px;
+    padding-bottom: 45px;
+}
+.f_text_right li a{
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    text-align: right;
+}
+.right p{
+    font-family:'GmarketSansBold';
+    font-size: 13px;
+    color: #fff;
+    text-align: right;
+    clear: both;
+}
+
+
+
+
+
+
+
+ 
