@@ -13,24 +13,25 @@ a{text-decoration: none; color: #202020;}
     font-weight: normal;
     font-style: normal;
     }
-    @font-face {
-        font-family: 'GmarketSansBold';
-        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     }
-    @font-face {
-        font-family: 'yg-jalnan';
-        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
     }
-    body{
-        font-family:GmarketSansLight;
-        font-size: 15px;
-        line-height: 21px;
-        color: #202020;
-        min-width: 1320px;
+body{
+    font-family:GmarketSansMedium;
+    font-size: 14px;
+    line-height: 21px;
+    color: #5a5a5a;
+    min-width: 1320px;
+    font-weight: 100;
     }
 
 /*h2 폰트 고정부분*/
@@ -38,6 +39,7 @@ h2{
     font-family:'GmarketSansBold';
     font-size: 26px;
     line-height: 36px;
+    color: #202020;
 }
 
 /*페이지1*/
@@ -65,8 +67,7 @@ h2{
     display: block;
     color: #704b31;
     padding-right: 30px;
-    font-family:'GmarketSansMedium';
-    font-size: 10.5px;
+    font-size: 13px;
 }
 .login li .orange{
     display: block;
@@ -82,9 +83,8 @@ h2{
 .nav li a{
     display: block;
     color:#704b31;
-    padding-left: 100px;
-    font-family: 'GmarketSansMedium';
-    font-size: 15px;
+    padding-left: 95px;
+    font-size: 17px;  
 }
 
 /*메인배너*/
@@ -109,16 +109,22 @@ h2{
 }
 .vision_text li{
     float: left;
-    width: 33.33%;
+    width: 25%;
     text-align: center;
     padding: 100px 0 25px;
     font-size: 20px;
-    font-family:'GmarketSansMedium';
+    color: #202020;
 }
 .vision_img li{
     float: left;
-    width: 33.33%;
+    width: 25%;
     text-align: center;
+}
+.vision_text li:nth-child(1){
+    margin-left: 12.5%;
+}
+.vision_img li:nth-child(1){
+    margin-left: 12.5%;
 }
 
 
@@ -155,12 +161,8 @@ h2{
     height: 80px;
     text-align: center;
 }
-.main_text p{
-    font-size: 14px;
-    line-height: 21px;
-}
 .logo_bold{
-    font-family:'GmarketSansMedium';
+    color: #ee7625;
 }
 /*서브박스 레이아웃*/
 .boxes{
@@ -281,7 +283,7 @@ h2{
 }
 .right{
     float: right;
-    width: 400px;
+    /*width: 400px;*/
     padding-right: 70px;
 }
 .f_logo{
@@ -294,6 +296,7 @@ h2{
     color: #fff;
     padding-left: 35px;
     font-size: 13px;
+    font-family: 'GmarketSansLight';
 }
 .f_text_right li{
     float: left;
@@ -304,6 +307,7 @@ h2{
     display: block;
     color: #fff;
     font-size: 13px;
+    font-family: 'GmarketSansLight';
     text-align: right;
 }
 .right p{
@@ -313,11 +317,3 @@ h2{
     text-align: right;
     clear: both;
 }
-
-
-
-
-
-
-
- 
