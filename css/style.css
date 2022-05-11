@@ -45,8 +45,12 @@ h2{
 /*페이지1*/    
 /*배경이미지*/
 .intro_bg{
-    background: url(../images/beaglebagel/main_bg.jpg) no-repeat;
-    height:710px;
+    height:1080px;
+    overflow: hidden;
+    position: relative;
+}
+video{
+    width: 100%;
 }
 
 .header_inner{
@@ -57,12 +61,16 @@ h2{
 .header h1{
     display: block;
     text-align: center;
-    padding: 40px 0 45px;
+    /*padding: 40px 0 45px;*/
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translate(-50%, 0%); 
 }
 
 .login{
     float: left;
-    padding-left: 200px;
+    /* padding-left: 200px; */
 }
 .login li{
     float: left;
@@ -73,13 +81,9 @@ h2{
     padding-right: 30px;
     font-size: 13px;
 }
-.login li .orange{
-    display: block;
-    color: #ed7625;
-}
 .nav{
     float: right;
-    padding-right: 200px;
+    /* padding-right: 200px; */
 }
 .nav li{
     float: left;
@@ -87,10 +91,45 @@ h2{
 .nav li a{
     display: block;
     color: #ffffff;
-    padding-left: 95px;
+   /* padding-left: 95px; */
     font-size: 17px;
 }
-
+/*position으로 nav 정렬하기 -> 뭔가 문제가 있음ㅜㅜ*/
+.login li:nth-child(1) a{
+    position: absolute;
+    top: 151px;
+    left: 500px;
+}
+.login li:nth-child(2) a{
+    position: absolute;
+    top: 151px;
+    left: 568px; /* 500px + login글자너비 38px + padding-right 30px */
+}
+.nav li:nth-child(1) a{
+    position: absolute;
+    top: 151px;
+    right: 821px;
+}
+.nav li:nth-child(2) a{
+    position: absolute;
+    top: 151px;
+    right: 682px;
+}
+.nav li:nth-child(3) a{
+    position: absolute;
+    top: 151px;
+    right: 537px;
+}
+.nav li:nth-child(4) a{
+    position: absolute;
+    top: 151px;
+    right: 397px;
+}
+.nav li:nth-child(5) a{
+    position: absolute;
+    top: 151px;
+    right: 200px;
+}
 
 /*페이지2*/
 .brand_inner{
