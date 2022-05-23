@@ -42,93 +42,57 @@ h2{
     color: #202020;
 }
 
-/*페이지1*/    
-/*배경이미지*/
-.intro_bg{
-    height:1080px;
-    overflow: hidden;
-    position: relative;
+/*페이지1*/
+#header{
+    height: 200px;
+    background-color: #fff8f6;
+    margin-bottom: 10px;
 }
-video{
-    width: 100%;
-}
-
 .header_inner{
     width: 1320px;
     margin: 0 auto;
 }
-
-.header h1{
+.logo{
     display: block;
     text-align: center;
-    /*padding: 40px 0 45px;*/
-    position: absolute;
-    top: 40px;
-    left: 50%;
-    transform: translate(-50%, 0%); 
+    padding: 40px 0 45px;
 }
-
 .login{
     float: left;
-    /* padding-left: 200px; */
+    padding-left: 200px;
 }
 .login li{
     float: left;
 }
 .login li a{
     display: block;
-    color: #ffffff;
+    color: #704b31;
     padding-right: 30px;
     font-size: 13px;
 }
+.login li .orange{
+    display: block;
+    color: #ed7625;
+}
 .nav{
     float: right;
-    /* padding-right: 200px; */
+    padding-right: 200px;
 }
 .nav li{
     float: left;
 }
 .nav li a{
     display: block;
-    color: #ffffff;
-   /* padding-left: 95px; */
-    font-size: 17px;
+    color:#704b31;
+    padding-left: 95px;
+    font-size: 17px;  
 }
-/*position으로 nav 정렬하기 -> 뭔가 문제가 있음ㅜㅜ*/
-.login li:nth-child(1) a{
-    position: absolute;
-    top: 151px;
-    left: 500px;
-}
-.login li:nth-child(2) a{
-    position: absolute;
-    top: 151px;
-    left: 568px; /* 500px + login글자너비 38px + padding-right 30px */
-}
-.nav li:nth-child(1) a{
-    position: absolute;
-    top: 151px;
-    right: 821px;
-}
-.nav li:nth-child(2) a{
-    position: absolute;
-    top: 151px;
-    right: 682px;
-}
-.nav li:nth-child(3) a{
-    position: absolute;
-    top: 151px;
-    right: 537px;
-}
-.nav li:nth-child(4) a{
-    position: absolute;
-    top: 151px;
-    right: 397px;
-}
-.nav li:nth-child(5) a{
-    position: absolute;
-    top: 151px;
-    right: 200px;
+
+/*영상*/
+video{
+    width: 1320px;
+    display: block;
+    margin: auto;
 }
 
 /*페이지2*/
